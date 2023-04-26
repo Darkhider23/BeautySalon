@@ -58,9 +58,10 @@ header ul li a {
 }
 
 header ul li a:hover {
-    background-color: antiquewhite;
+    font-size:20px;
+    border-bottom:solid 3px antiquewhite;
     color: #050e2d;
-    box-shadow: 0 0 10px antiquewhite;
+    transition: 0.5s;
 }
 header .action .searchBox {
     padding: 5px;

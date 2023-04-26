@@ -5,7 +5,6 @@
             <ul>
                 <li><a href="#"><i class='bx bxl-facebook-circle'></i></a></li>
                 <li><a href="#"><i class='bx bxl-instagram' ></i></a></li>
-                <li><a href="#"><i class='bx bxl-twitter' ></i></a></li>
                 <li><a href="#"><i class='bx bxl-youtube' ></i></a></i></li>
             </ul>
         </div>
