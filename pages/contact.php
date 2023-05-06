@@ -19,13 +19,13 @@ session_start();
     ?>
 
     <div class="contact-container">
-        <div class="contact-from">
-            <form action="">
-                <label for="email">Email:</label>
+        <div class="contact-form">
+            <form action=""id="contact-form">
+                <h1>Contact Us</h1>
                 <input type="text" name="name" placeholder="Name:">
                 <input type="text" name ="email" placeholder="Email:">
-                
-
+                <textarea placeholder="Type your message here..."></textarea>
+                <input type="submit" name="button" value="Submit">
             </form>
         </div>
     </div>
@@ -34,5 +34,4 @@ session_start();
     require  "../components/footer.php"
     ?>
 </body>
-
 </html>

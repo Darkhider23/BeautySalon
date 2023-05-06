@@ -13,13 +13,26 @@ session_start();
     <link href="../styles.css" rel="stylesheet">
     <title>Beauty Saloon</title>
 </head>
+
 <body>
     <?php
     require "../components/header.php"
     ?>
 
     <div class="book-container">
-        
+        <div class="book-form">
+            <form action="" id="book-form">
+                <h1>Make an appointment</h1>
+                <input type="text" name="name" placeholder="Name:">
+                <input type="text" name="email" placeholder="Email:">
+                <input type="text" name="service" placeholder="Service:">
+                <div class="date-time">
+                    <input type="date" name="date">
+                    <input type="time" name="time">
+                </div>
+                <input type="submit" name="button" value="Submit">
+            </form>
+        </div>
     </div>
 
     <?php

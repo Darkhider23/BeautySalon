@@ -226,12 +226,91 @@ footer .info ul li:hover a i{
     margin-top:3vh;
     font-size:20px;
 }
-.contact-container{
+.contact-container,.book-container,.login-container{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.contact-from form{
+.contact-form,.book-form,.login-form{
+    width: 400px;
+    box-shadow:5px 5px 15px 5px rgb(187, 164, 135);
+    border-radius: 20px;
+    border:transparent;
+}
+.contact-form form,.book-form form,.login-form form{
+    height: 500px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-form h1,.book-form h1,.login-form h1{
+    margin-bottom:30px;
+    margin-top:15px;
+    font-style: italic;
+}
+.contact-form input[type="text"],.book-form input[type="text"],.login-form input[type="email"],.login-form input[type="password"]{
+    height: 35px;
+    min-width: 250px;
+    margin-bottom: 25px;
+    border-radius:10px;
+    border:transparent;
+    padding: 8px;
+}
+.contact-form textarea{
+    height: 120px;
+    width: 250px;
+    border-radius:10px;
+    border:transparent;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+.contact-form input[type="submit"], .book-form input[type="submit"],.login-form input[type="submit"]{
+    width: 100px;
+    height: 45px;
+    border-radius:20px;
+    font-size: 15px;
+    border:transparent;
+    box-shadow:5px 5px 15px 5px rgb(187, 164, 135);
+}
+.contact-form input[type="submit"]:hover, .book-form input[type="submit"]:hover,.login-form input[type="submit"]:hover{
+    width: 100px;
+    height: 45px;
+    border-radius:20px;
+    font-size: 15px;
+    border:transparent;
+    box-shadow:5px 5px 15px 5px rgb(219, 143, 50);
+}
+
+.book-form .date-time{
+    margin-bottom:20px;
+}
+.book-form .date-time input{
+    border:transparent;
+    border-radius:10px;
+    padding: 10px;
+}
+.book-form .date-time input[type="date"]{
+    height: 40px;
+    width: 200px;
+}
+
+.book-form .date-time input[type="time"]{
+    height: 40px;
+    width: 100px;
+}
+.login-navbar a{
+    color: #751c1c;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.login-navbar a:hover {
+    font-size:20px;
+    border-bottom:solid 3px antiquewhite;
+    color: #050e2d;
+    transition: 0.5s;
+}
+.login-container{
+    height: 1000px;
 }

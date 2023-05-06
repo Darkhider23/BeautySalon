@@ -7,12 +7,9 @@
         <li><a href="./about.php">About</a></li>
         <li><a href="./contact.php">Contact</a></li>
     </ul>
-    <div class="action">
-    <div class="searchBox">
-            <a href="#"><i class='bx bx-search'></i></a>
-            <input type="text"
-                   placeholder="Search Services" />
-        </div>
+    <div class="login-navbar">
+        <a href="./login.php">Login</a>
+    </div>
         
     </div>
 </header>
