@@ -19,7 +19,11 @@ session_start();
     ?>
 
     <div class="about-container">
-        
+        <div class="content">
+        <h4>Enhance your natural<br> beauty with us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui magni beatae, doloremque quidem unde eaque nobis ipsa est incidunt veritatis?</p>
+        </div>
+        <img src="../public/about.png" alt="">
     </div>
 
     <?php

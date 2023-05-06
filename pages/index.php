@@ -18,7 +18,7 @@
 
     <div class="home-container">
         <div class="banner">
-            <h2><span>Welcome to a full</span><br>I&A experience</h2>
+            <h2><span>Welcome to a full</span><br>I&A experience<br></h2>
             <img src="../public/pngwing.com.png" alt="">
         </div>
     </div>

@@ -19,7 +19,15 @@ session_start();
     ?>
 
     <div class="contact-container">
-        
+        <div class="contact-from">
+            <form action="">
+                <label for="email">Email:</label>
+                <input type="text" name="name" placeholder="Name:">
+                <input type="text" name ="email" placeholder="Email:">
+                
+
+            </form>
+        </div>
     </div>
 
     <?php
